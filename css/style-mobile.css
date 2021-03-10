@@ -192,7 +192,7 @@
 	
 		#logo h1
 		{
-			color: #FFF;
+			color: #f7f7f7;
 		}
 	
 		#logo h1 a
@@ -203,7 +203,7 @@
 			text-transform: uppercase;
 			font-size: 2em;
 			font-weight: 900;
-			color: #323338;
+			color: #f7f7f7;
 		}
 
 		#logo span
