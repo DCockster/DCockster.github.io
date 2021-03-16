@@ -182,23 +182,30 @@
 			.image img
 			{
 				display: block;
-				width: 100%;
+				width: 50%;
+				
 				border-radius: 6px;
+			}
+			.image.notes
+			{
+				display: block;
+				width: 45%;
+				margin: 0 0 2em 0;
 			}
 
 			.image.featured
 			{
 				display: block;
-				width: 300px;
-				height: 200px;
+				width: 100%;
 				margin: 0 0 2em 0;
 			}
+
 			
 			.image.full
 			{
 				
-                width:  200px;
-                height: 150px;
+                width:  350px;
+                height: 400px;
 				margin: 0 0 2em 0;
                
 			}
@@ -301,10 +308,8 @@
 
 	#main
 	{
-		
-		background: #f5f5f5;
-		background-repeat: no-repeat;
-		background-size: cover;
+		position: relative;
+		background: #fff url(images/overlay.png) repeat;
 	}
 	
 	.divider
@@ -312,6 +317,7 @@
 		overflow: hidden;
 		border-top: 1px solid #dbdbdb;
 	}
+
 
 /*********************************************************************************/
 /* Footer                                                                        */
