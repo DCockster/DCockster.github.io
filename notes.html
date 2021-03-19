@@ -58,11 +58,70 @@
 									<h2>Notes</h2>
 									
 								</header>
-								<p><a href="#" class="image notes"><img src="images/notestheme.jpg" alt=""></a></p>
-								<p>Notes is very simple note pad used to jot down notes on your android devise. </p>
-								<p>Built on a PRIVATE MODE so files only to be accessed from within the app.</p>
-								<p>Text and links are selectable for your convenience, plus links are highlighted blue.</p>
-								<p>This app only creates a text file currently.</p>
+								<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="images/notestheme.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="images/notestheme2.png" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="images/notestheme3.png" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+								<p>Notes is very simple note pad used to jot down notes on your android devise. 
+							   Built on a PRIVATE MODE so files only to be accessed from within the app.
+								Text and links are selectable for your convenience, plus links are highlighted blue.
+								This app only creates a text file currently.This is one of the first apps I built and honestly I built it on my phone one day because I was bored.I later added the project to android studio to improve the build.I might revisit the app one day to add more things but lets be honest google play store has many options when it comes to note pads. </p>
                         
 								
 					
@@ -88,7 +147,7 @@
 				<div class="row">
 					<div class="3u">
 						<section>
-							<ul class="style1">
+							<ul class="style2">
 								<li><img src="images/pics15.jpg" width="100" height="100" alt="">
 									<p>Android App Developer</p>
 									<p class="posted">August 3, 2021 </p>
