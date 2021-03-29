@@ -138,6 +138,44 @@
 			transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
 			cursor: pointer;
 		}
+		.button2
+		{
+			position: relative;
+			display: inline-block;
+			margin-top: 2em;
+			padding: 0.8em 1.5em;
+			background: #FF0000;
+			border-radius: 6px;
+			text-decoration: none;
+			text-transform: uppercase;
+			font-size: 1em;
+			color: #FFF;
+			-moz-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+			-webkit-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+			-o-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+			-ms-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+			transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+			cursor: pointer;
+		}
+		.button3
+		{
+			position: relative;
+			display: inline-block;
+			margin-top: 2em;
+			padding: 0.8em 1.5em;
+			background: #32a854;
+			border-radius: 6px;
+			text-decoration: none;
+			text-transform: uppercase;
+			font-size: 1em;
+			color: #FFF;
+			-moz-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+			-webkit-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+			-o-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+			-ms-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+			transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
+			cursor: pointer;
+		}
 
 			.button:hover
 			{
@@ -205,7 +243,7 @@
 			{
 				
                 width:  350px;
-                height: 400px;
+                height: 300px;
 				margin: 0 0 2em 0;
                
 			}
@@ -246,12 +284,14 @@
 		{
 			font-size: 0.90em;
 			color: #000000;
+
 		}	
 		ul.style2
 		{
 			font-size: 0.90em;
 			color: 	#FFFFFF;
 		}	
+		
 
 			ul.style1 li
 			{
@@ -323,6 +363,7 @@
 		overflow: hidden;
 		border-top: 1px solid #dbdbdb;
 	}
+	
 
 
 /*********************************************************************************/
@@ -363,11 +404,14 @@
 		text-align: center;
 		color: rgba(255,255,255,.2);
 	}
-	
-	#copyright .container
-	{
-	}
-	
+	.mail-container {
+  max-width: 350px;
+  position: relative;
+  margin: auto;
+    padding: 10px;
+  
+}
+
 	#copyright a
 	{
 		text-decoration: none;
@@ -473,3 +517,4 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
+
