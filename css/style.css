@@ -363,7 +363,7 @@
 	#main
 	{
 		position: relative;
-		background: #fff url(images/overlay.png) repeat;
+		background: #FFFFFF  no-repeat;
 	}
 	
 	.divider
@@ -392,7 +392,7 @@
 	#game
 	{
 		position: relative;
-		background: #fff url(images/overlay.png) repeat;
+		background: #FFFFFF no-repeat;
 	}
 	
 	#game header h2
