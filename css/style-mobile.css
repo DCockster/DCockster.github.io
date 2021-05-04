@@ -48,6 +48,13 @@
 	{
 		padding: 0em 2em;
 	}
+	.video-container {
+  max-width: 300px;
+  position: center;
+  margin: auto;
+    padding: 10px;
+  
+}
 	
 	.button
 	{
