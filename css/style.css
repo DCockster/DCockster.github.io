@@ -314,6 +314,8 @@
 				border-radius: 6px;
 			}
 			
+		
+			
 			ul.style1 .posted
 			{
 				display: block;
@@ -338,6 +340,8 @@
 	
 	#nav
 	{
+
+		
 	}
 
 		#nav ul
@@ -370,6 +374,20 @@
 	{
 		overflow: hidden;
 		border-top: 1px solid #dbdbdb;
+	}
+	.video-container {
+  max-width: 600px;
+  position: center;
+  margin: auto;
+    padding: 10px;
+  
+}
+    .right-container {
+		max-width: 600px;
+		 position: right;
+       
+        padding: 10px;
+		
 	}
 	
 
