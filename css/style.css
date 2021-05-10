@@ -12,7 +12,7 @@
 
 	body
 	{
-		background: #090909;
+		background: #494e5c ;
 	}
 
 	body,input,textarea,select
@@ -27,12 +27,13 @@
 	{
 
 		font-weight: bold;
+		color: #FFFFFF;
 	}
 	
 	
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
 		{
-			color: inherit;
+			color: #FFFFFF;
 			text-decoration: none;
 		}
 		
@@ -40,7 +41,7 @@
 	strong, b
 	{
 		font-weight: bold;
-		color: #000000;
+		color: #FFFFFF;
 	}
 	
 	em, i
@@ -51,7 +52,7 @@
 	/* Don't forget to set this to something that matches the design */
 	a
 	{
-		color: #ed1111;
+		color: #FFFFFF;
 	}
 	
 	a:hover
@@ -89,6 +90,7 @@
 	p, ul, ol, dl, table
 	{
 		margin-bottom: 1em;
+		color: #FFFFFF;
 	}
 
 	header
@@ -99,12 +101,14 @@
 		{
 			letter-spacing: -1px;
 			font-weight: 700;
+			color: #FFFFFF;
 		}
 	
 		header .byline
 		{
 			display: block;
 			text-transform: uppercase;
+			color: #FFFFFF;
 		}
 		
 	footer
@@ -296,7 +300,7 @@
 		ul.style1
 		{
 			font-size: 0.90em;
-			color: #000000;
+			color: #FFFFFF;
 
 		}	
 		ul.style2
@@ -372,7 +376,8 @@
 	#main
 	{
 		position: relative;
-		background: #FFFFFF  no-repeat;
+		background: #494e5c  no-repeat;
+		
 	}
 	
 	.divider
@@ -425,13 +430,10 @@
 	#game
 	{
 		position: relative;
-		background: #FFFFFF no-repeat;
+		background: #494e5c  no-repeat;
 	}
 	
-	#game header h2
-	{
-		color: #000000;
-	}
+
 	
 	
 /*********************************************************************************/
