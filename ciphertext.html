@@ -1,0 +1,143 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>MI Tech Life</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href='http://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-panels.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+	</head>
+	<body>
+
+	<!-- Header -->
+		<div id="header">
+			<div class="container">
+					
+				<!-- Logo -->
+					<div id="logo">
+						<h1><a href="#">MI Tech Life</a></h1>
+						<a class="image logo"><img src="images/logo1.png" alt="images/sweetfileslogo.png" /></a>
+						
+					</div>
+				
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Homepage</a></li>							
+							<li class="active"><a href="topgamers.html">Cipher Text</a></li>
+							
+							<li><a href="sweetfiles.html">SweetFiles</a></li>
+							<li><a href="notes.html">Notes</a></li>
+							
+						
+							<li><a href="midownloader.html">Mi Downloader</a></li>
+							<li><a href="jizzed.html">Jizzed</a></li>
+							<li><a href="mimusicplayer.html">Mi Music Player</a></li>
+							<li><a href="youtubedownloader.html">YouTube Downloader</a></li>
+						</ul>
+					</nav>
+
+			</div>
+		</div>
+	<!-- Header -->
+			
+	<!-- Main -->
+		<div id="main">
+			<div class="container">
+			
+				
+				
+
+					<!-- Content -->
+						<header>
+							<h2>Cipher Text</h2>
+								</header>
+								<a class="image featured"><img src="images/crypto.png" alt="" /></a>
+								
+								<h2>The Unbreakable One-Time Pad Cipher</h2>
+						
+					
+					
+					<p>There is one cipher that is impossible to crack, no matter how powerful your computer is, how much time you have to crack it, or how clever of a hacker you are. We won’t have to write a new program to use it either. Our Vigenère program can implement this cipher without any changes. But this cipher is so inconvenient to use on a regular basis that it is often only used for the most top-secret of messages.</p>
+					<p> The one-time pad cipher is an unbreakable cipher. It is a Vigenère cipher where:</p>
+								<ul class="style1">
+                                 <li> The key is exactly as long as the message that is encrypted.</li>
+                                 <li> The key is made up of truly random symbols.</li>
+                                 <li>  The key is used one time only, and never used again for any other message.</li>
+                                 
+								 </ul>
+								 <p>By following these three rules, your encrypted message will be invulnerable to any cryptanalyst’s attack. Even with literally an infinite amount of computing power, the cipher cannot be broken.
+
+The key for the one-time pad cipher is called a pad because they were printed on pads of paper. The top sheet of paper would be torn off the pad after it was used to reveal the next key to use.</p>
+					<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6807380115101566"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout-key="-fb+5w+4e-db+86"
+     data-ad-client="ca-pub-6807380115101566"
+     data-ad-slot="4863605750"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+					<h3>Why the One-Time Pad is Unbreakable </h3>
+					<p>To see why the one-time pad (OTP) cipher is unbreakable, let’s think about why the regular Vigenère cipher is vulnerable to breaking. Our Vigenère cipher hacking program works by doing frequency analysis. But if the key is the same length as the message, then every possible ciphertext letter is equally probable to be for the same plaintext letter.
+					</p>
+					<p>Say that we want to encrypt the message, “If you want to survive out here, you've got to know where your towel is.” If we remove the spaces and punctuation, this message has 55 letters. So to encrypt it with a one-time pad, we need a key that is also 55 letters long. Let’s use the key “kcqyzhepxautiqekxejmoretzhztrwwqdylbttvejmedbsanybpxqik”. Encrypting the string looks like this:
+					</p>
+					<ul class="style1">
+                                 <li> Plaintext: ifyouwanttosurviveouthereyouvegottoknowwhereyourtowelis</li>
+                                 <li> Key: kcqyzhepxautiqekxejmoretzhztrwwqdylbttvejmedbsanybpxqik</li>
+                                 <li>Ciphertext: shomtdecqtilchzssixghyikdfnnmacewrzlghraqqvhzguerplbbqc</li>
+                                 
+								 </ul>
+								
+								<p>Now imagine a cryptanalyst got a hold of the ciphertext (“shomtdec...”). How could she attack the cipher? Brute-forcing through the keys would not work, because there are too many even for a computer. The number of keys is 26 ^ (number of letters in the message), so if the message has 55 letters, there would be a total of 26 ^ 55, or 666,091,878,431,395,624,153,823,182,526,730,590, 376,250,379,52 8,249,805,353,030,484,209,594,192,101,376 possible keys.
+
+But it turns out that even if she had a computer that was powerful enough to try all the keys, it still would not break the one-time pad cipher. This is because for any ciphertext, all possible plaintext messages are equally likely.</p>
+								<a class="image featured"><img src="images/code.png" alt="" /></a>
+								<p>I have indecated where you can change to key in the picture above.(put_your_random_letters_here_for_a_key).Be sure to put as many characters in that spot as you want to encrypt.You will use the same key to encrypt and decrypt.You will have to have python installed on your PC for this program to work. </p>
+									<p></p>
+									<a href="https://drive.google.com/uc?export=download&id=156BRBKX6Z-inObCUqqWyUT1JLrRQVYIc" class="button">Download</a>
+								
+								</div>
+						
+					<!-- /Content -->
+						
+					
+						
+				</div>
+			
+			</div>
+			
+			
+			
+		</div>
+		
+	<!-- Main -->
+
+	<!-- Footer -->
+		
+	<!-- Footer -->
+
+	<!-- Copyright -->
+		<div id="copyright">
+			<div class="container">
+				Designer: DCockster
+			</div>
+		</div>
+
+	</body>
+</html>
