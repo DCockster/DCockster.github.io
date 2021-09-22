@@ -15,7 +15,7 @@
 }
 	body
 	{
-		background: #494e5c ;
+		background: #1e1f30 ;
 	}
 
 	body,input,textarea,select
@@ -402,7 +402,7 @@
 	#header
 	{
 		position: relative;
-		background: #ddd url(../images/home_logo2.png) no-repeat center;
+		background: #ddd url(../images/background.jpg) no-repeat center;
 		background-size: cover;
 	}
 
@@ -439,7 +439,7 @@
 	#main
 	{
 		position: relative;
-		background: #494e5c  no-repeat;
+		background: #1c1d26  no-repeat;
 		
 	}
 	
@@ -493,7 +493,7 @@
 	#game
 	{
 		position: relative;
-		background: #494e5c  no-repeat;
+		background: #1c1d26 no-repeat;
 	}
 	
 
